@@ -14,10 +14,15 @@
     border-radius: 18px;
 }
 
+.display {
+    width: 100%;
+}
+
+
 .title {
     font-size: 26px;
      text-align: center;
      font-weight: bold;
-     margin-bottom: 20px;
-    
+     margin-bottom: 20px;  
 }
+
