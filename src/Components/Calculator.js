@@ -11,7 +11,7 @@ function Calculator() {
       } catch (error) {
         setInput("Error");
       }
-    } else if (value === "C") {
+    } else if (value === "Clear") {
      
       setInput("");
     } else {
@@ -49,7 +49,7 @@ function Calculator() {
         <button onClick={() => handleClick("/")}>/</button>
       </div>
       <div>
-        <button onClick={() => handleClick("D")}>D</button>
+        <button onClick={() => handleClick("Clear")}>Clear</button>
       </div>
     </div>
   );
