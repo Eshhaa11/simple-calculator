@@ -1,25 +1,5 @@
-import { useState } from "react";
+import React, { useState } from "react";
 
-function Calculator () {
-    const [userinput, setUserInput]= useState("");
-    const [prevvalue, setPrevValue]= useState(null);
-    const [operator, setOperator]= useState(null);
-  
-    const buttons =  [
-        ['7' , '8', '9', '*'],
-        ['4' , '5', '6', '/'],
-        ['1' , '2', '3', '+'],
-        ['0' , '.', '=', '-']
-    ];
-
-    return (
-        <div className="button-cont">
-            {buttons.map}((row, rowIndex) => (
-                <div key={rowIndex} className="button-row"
-            ))
-        <h1>Calculator</h1>
-        </div>
-    )
-}
-
-export default Calculator;
+function Calculator() {
+  const [input, setInput] = useState("");
+};
