@@ -10,11 +10,10 @@ function Calculator () {
         ['4' , '5', '6', '/'],
         ['1' , '2', '3', '+'],
         ['0' , '.', '=', '-']
-
-    ]
+    ];
 
     return (
-        <div>
+        <div className="button-cont">
         <h1>Calculator</h1>
         </div>
     )
