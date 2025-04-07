@@ -12,5 +12,8 @@
     padding: 20px;
     width: 310px;
     border-radius: 18px;
+}
 
+.title {
+    width: 100%;
 }
