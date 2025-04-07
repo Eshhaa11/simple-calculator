@@ -4,7 +4,10 @@ function Calculator () {
     const [userinput, setUserInput]= useState("");
     const [prevvalue, setPrevValue]= useState(null);
     const [operator, setOperator]= useState(null);
-
+  
+    const buttons =  [
+        ['7' , '8', '9', '*'] 
+    ]
 
     return (
         <div>
