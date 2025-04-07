@@ -6,7 +6,8 @@ function Calculator () {
     const [operator, setOperator]= useState(null);
   
     const buttons =  [
-        ['7' , '8', '9', '*'] 
+        ['7' , '8', '9', '*'],
+        ['4' , '5', '6', '/']
     ]
 
     return (
