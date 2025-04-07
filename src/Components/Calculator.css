@@ -4,10 +4,13 @@
     align-items: center;
     background-color: rgb(54, 83, 87);
     font-family: 'Impact';
+    min-height: 100vh;
 }
 
 .calculator {
     background-color: rgb(178, 127, 127);
     padding: 20px;
-    
+    width: 310px;
+    border-radius: 18px;
+
 }
