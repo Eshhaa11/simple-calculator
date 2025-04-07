@@ -49,7 +49,7 @@ function Calculator() {
         <button onClick={() => handleClick("/")}>/</button>
       </div>
       <div>
-        <button onClick={() => handleClick("C")}>C</button>
+        <button onClick={() => handleClick("D")}>D</button>
       </div>
     </div>
   );
