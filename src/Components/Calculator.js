@@ -14,6 +14,9 @@ function Calculator () {
 
     return (
         <div className="button-cont">
+            {buttons.map}((row, rowIndex) => (
+                <div key={rowIndex} className="button-row"
+            ))
         <h1>Calculator</h1>
         </div>
     )
