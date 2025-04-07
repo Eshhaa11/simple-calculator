@@ -1,17 +1,19 @@
-# 📝 Simple To-Do List App (React)
+# 🧮 React Calculator
 
-A simple and clean To-Do List app built with **React**, featuring task addition and removal, with a modern **black and white design**.
+A simple **React** application that implements a basic **calculator** with support for arithmetic operations like addition, subtraction, multiplication, and division.
 
 ## 📌 Features
-- ✅ **Add Tasks**: Users can add tasks to the list.
-- ✅ **Delete Tasks**: Users can delete tasks they no longer need.
-- ✅ **Minimalist Design**: The app has a clean, black background with white text for a sleek look.
+- ✅ **Basic Calculator**: Perform arithmetic operations (addition, subtraction, multiplication, division).
+- ✅ **Responsive Design**: Works across different screen sizes and devices.
+- ✅ **Clear Button**: Reset the calculator with the "Clear" button.
+- ✅ **Error Handling**: Displays an error when division by zero occurs.
+- ✅ **Clean UI**: Minimalist user interface with clear button and display.
 
 ## 🛠️ Technologies Used
-- ⚛️ **React** (for building the interactive app)
-- 💻 **JavaScript** (for core app functionality)
-- 🎨 **CSS** (for styling the app with a modern black-and-white theme)
-- 📄 **HTML** (for structure)
+- ⚛️ **React** (useState for state management and input handling)
+- 🎨 **CSS** (for styling the calculator interface)
+- 📄 **HTML** (for structuring content)
+- 
 
 ## 🚀 Live Demo
 To see it in action, clone the repository and follow the setup instructions below.
@@ -22,6 +24,7 @@ To see it in action, clone the repository and follow the setup instructions belo
 
    ```bash
    git clone https://github.com/Eshhaa11/simple-calculator
+   
 2. **Navigate to the project directory:**
 
    cd simple-calculator
