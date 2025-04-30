@@ -1,3 +1,5 @@
+![App Screenshot](src/assets/calc.jpg)
+
 # 🧮 React Calculator
 
 A simple **React** application that implements a basic **calculator** with support for arithmetic operations like addition, subtraction, multiplication, and division.
